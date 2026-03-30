@@ -22,7 +22,7 @@ const Footer = () => {
         <p className="text-white-200 md:mt-10 my-5 text-center text-lg">
           Want to chat? Just shoot me a dm with a direct question on Whatsapp{" "}
           <br />
-          and I'll respond fast. I will ignore all soliciting.
+          and I&apos;ll respond fast. I will ignore all soliciting.
         </p>
         <a target="blank" href="https://wa.me/919355233077">
           <MagicButton

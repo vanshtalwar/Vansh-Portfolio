@@ -54,7 +54,7 @@ const Hero = () => {
 
           <div className="font-light">
             <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
-              I'm a software engineer with 1 year of experience working across
+              I&apos;m a software engineer with 1 year of experience working across
               full-stack and backend systems, building scalable web
               applications, backend APIs using JavaScript, Node.js and MERN
               Stack. I also have experience designing, scaling, optimizing and
