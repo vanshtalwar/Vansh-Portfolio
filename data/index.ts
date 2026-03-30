@@ -38,8 +38,9 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
-    description: "",
+    title:
+      "Bachelors in Technology in Computer Science - KCC Institutes, Greater Noida",
+    description: "Education 2022-2026",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -145,8 +146,9 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Software Development Engineer Intern",
+    title: "Software Development Engineer",
     desc: "At Xelron AI, I developed Internal Dashboards using MERN Stack and Trained AI Models for Snorkel AI.",
+    duration: "Sept 2025 - Present",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
@@ -154,10 +156,10 @@ export const workExperience = [
     id: 2,
     title: "Full Stack Developer Intern",
     desc: "At TechAivv Technologies, I developed a Modern frontend website for them using React.js",
+    duration: "March 2025 - Aug 2025",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
-
 ];
 
 export const socialMedia = [

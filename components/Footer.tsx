@@ -17,21 +17,16 @@ const Footer = () => {
 
       <div className="flex flex-col items-center">
         <h1 className="heading lg:max-w-[45vw]">
-          Ready to take <span className="text-purple">your</span> digital
-          presence to the next level?
+          Get in <span className="text-purple">Touch</span>
         </h1>
-        <p className="text-white-200 md:mt-10 my-5 text-center">
-          If you have an exciting project or role that aligns with my expertise, <br />
-          please reach out at 
-          <b> vipultalwin99@gmail.com </b> or through any of my social
-          channels.
+        <p className="text-white-200 md:mt-10 my-5 text-center text-lg">
+          Want to chat? Just shoot me a dm with a direct question on Whatsapp{" "}
+          <br />
+          and I'll respond fast. I will ignore all soliciting.
         </p>
-        <a
-          target="blank"
-          href="https://mail.google.com/mail/?view=cm&fs=1&to=vipultalwin99@gmail.com"
-        >
+        <a target="blank" href="https://wa.me/919355233077">
           <MagicButton
-            title="Let's Get in touch"
+            title="Contact me"
             icon={<FaLocationArrow />}
             position="right"
           />

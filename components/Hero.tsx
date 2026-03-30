@@ -40,25 +40,50 @@ const Hero = () => {
         />
       </div>
 
-      <div className="flex justify-center relative my-20 z-10">
+      <div className="flex justify-center relative my-10 z-10">
         <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
-          <p className="uppercase tracking-widest text-xs text-center text-blue-100 max-w-80">
-            Dynamic Web Solutions with Modern Full Stack Development
-          </p>
-
           {/**
            *  Link: https://ui.aceternity.com/components/text-generate-effect
            *
            *  change md:text-6xl, add more responsive code
            */}
           <TextGenerateEffect
-            words="Transforming Ideas into Fast, Scalable, and Seamless Experiences"
-            className="text-center text-[40px] md:text-5xl lg:text-6xl"
+            words="Vansh Talwar | Full Stack Developer"
+            className="text-center text-[40px] md:text-5xl lg:text-5xl"
           />
 
-          <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi! I&apos;m Vansh Talwar, a Full Stack Developer based in India.
-          </p>
+          <div className="font-light">
+            <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+              I'm a software engineer with 1 year of experience working across
+              full-stack and backend systems, building scalable web
+              applications, backend APIs using JavaScript, Node.js and MERN
+              Stack. I also have experience designing, scaling, optimizing and
+              deploying production workloads.
+              <br />
+              <br />
+              Recently, I contribute to AI evaluation and benchmarking systems
+              at Xelron (Snorkel AI ecosystem), designing terminal-based backend
+              tasks, Dockerized environments, and deterministic validation
+              pipelines for training and evaluating large language models.
+              Previously, I worked as a Full Stack Developer at TechAivv
+              Technologies, building RESTful APIs with Node.js and Express.js,
+              added authentication and performance optimization within
+              Dockerized environment.
+              <br />
+              <br />
+              If you have an exciting project or role that aligns with my
+              expertise, please reach out at{"  "}
+              <a
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=vipultalwin99@gmail.com"
+                className="font-bold underline"
+              >
+                vipultalwin99@gmail.com
+              </a>{" "}
+              or through any of my social channels.
+            </p>
+          </div>
 
           <a
             target="blank"
