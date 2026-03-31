@@ -53,9 +53,9 @@ const Hero = () => {
           />
 
           <div className="font-light">
-            <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl">
+            <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl px-10 pb-5">
               I&apos;m a software engineer with 1 year of experience working across
-              full-stack and backend systems, building scalable web
+              full-stack systems, building scalable web
               applications, backend APIs using JavaScript, Node.js and MERN
               Stack. I also have experience designing, scaling, optimizing and
               deploying production workloads.
@@ -63,12 +63,7 @@ const Hero = () => {
               <br />
               Recently, I contribute to AI evaluation and benchmarking systems
               at Xelron (Snorkel AI ecosystem), designing terminal-based backend
-              tasks, Dockerized environments, and deterministic validation
-              pipelines for training and evaluating large language models.
-              Previously, I worked as a Full Stack Developer at TechAivv
-              Technologies, building RESTful APIs with Node.js and Express.js,
-              added authentication and performance optimization within
-              Dockerized environment.
+              tasks, Dockerized environments and evaluating large language models.
               <br />
               <br />
               If you have an exciting project or role that aligns with my

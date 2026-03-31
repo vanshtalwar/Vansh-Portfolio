@@ -18,8 +18,9 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
-    description: "",
+    title:
+      "Bachelors in Technology in Computer Science - KCC Institutes",
+    description: "Education 2022-2026",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-start",
@@ -36,38 +37,7 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-  {
-    id: 4,
-    title:
-      "Bachelors in Technology in Computer Science - KCC Institutes, Greater Noida",
-    description: "Education 2022-2026",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "/grid.svg",
-    spareImg: "/b4.svg",
-  },
 
-  {
-    id: 5,
-    title: "Currently building a Real Time Chat Application using Socket.io",
-    description: "The Inside Scoop",
-    className: "md:col-span-3 md:row-span-2",
-    imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
-    titleClassName: "justify-center md:justify-start lg:justify-center",
-    img: "/b5.svg",
-    spareImg: "/grid.svg",
-  },
-  {
-    id: 6,
-    title: "Do you want to start a project together?",
-    description: "",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-1",
-    imgClassName: "",
-    titleClassName: "justify-center md:max-w-full max-w-60 text-center",
-    img: "",
-    spareImg: "",
-  },
 ];
 
 export const projects = [
@@ -89,59 +59,6 @@ export const projects = [
   },
 ];
 
-export const testimonials = [
-  {
-    quote:
-      "Working with Vansh was a great experience. He delivered the project on time and made sure everything worked smoothly. His attention to detail and problem-solving skills really stood out.",
-    name: "Rohit Verma",
-    title: "Startup Founder",
-  },
-  {
-    quote:
-      "Vansh is very professional and easy to work with. He understood our requirements quickly and built a fast, responsive website that exceeded expectations.",
-    name: "Mrityunjay Sharma",
-    title: "Product Manager",
-  },
-  {
-    quote:
-      "I highly recommend Vansh for any web development work. He communicates clearly, delivers quality code, and ensures the final product is polished and user-friendly.",
-    name: "Amit Singh",
-    title: "Business Owner",
-  },
-];
-
-export const companies = [
-  {
-    id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
-    img: "/app.svg",
-    nameImg: "/appName.svg",
-  },
-  {
-    id: 3,
-    name: "HOSTINGER",
-    img: "/host.svg",
-    nameImg: "/hostName.svg",
-  },
-  {
-    id: 4,
-    name: "stream",
-    img: "/s.svg",
-    nameImg: "/streamName.svg",
-  },
-  {
-    id: 5,
-    name: "docker.",
-    img: "/dock.svg",
-    nameImg: "/dockerName.svg",
-  },
-];
 
 export const workExperience = [
   {

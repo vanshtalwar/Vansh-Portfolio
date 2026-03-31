@@ -8,7 +8,7 @@ export const TextGenerateEffect = ({
   words,
   className,
   highlight = true, // NEW
-  speed = 0.1, // NEW
+  speed = 0.2, // NEW
 }: {
   words: string;
   className?: string;
