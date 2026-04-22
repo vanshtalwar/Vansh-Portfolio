@@ -55,7 +55,7 @@ export const projects = [
     des: "A Real Time Chat Application Build using MERN + Socket.io",
     img: "/whispyr.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-    link: "https://whispyr-io.vercel.app/",
+    link: "https://whispyr-io-v2.onrender.com/",
   },
 ];
 
