@@ -3,6 +3,7 @@ import { FaLocationArrow } from "react-icons/fa6";
 import MagicButton from "./MagicButton";
 import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
+import { socialMedia } from "@/data";
 
 const Hero = () => {
   return (
@@ -54,16 +55,17 @@ const Hero = () => {
 
           <div className="font-light">
             <p className="text-left md:tracking-wider mb-4 text-sm md:text-lg lg:text-xl px-10 pb-5">
-              I&apos;m a software engineer with 1 year of experience working across
-              full-stack systems, building scalable web
-              applications, backend APIs using JavaScript, Node.js and MERN
-              Stack. I also have experience designing, scaling, optimizing and
-              deploying production workloads.
+              I&apos;m a software engineer with 1 year of experience working
+              across full-stack systems, building scalable web applications,
+              backend APIs using JavaScript, Node.js and MERN Stack. I also have
+              experience designing, scaling, optimizing and deploying production
+              workloads.
               <br />
               <br />
               Recently, I contribute to AI evaluation and benchmarking systems
               at Xelron (Snorkel AI ecosystem), designing terminal-based backend
-              tasks, Dockerized environments and evaluating large language models.
+              tasks, Dockerized environments and evaluating large language
+              models.
               <br />
               <br />
               If you have an exciting project or role that aligns with my
@@ -80,16 +82,32 @@ const Hero = () => {
             </p>
           </div>
 
-          <a
-            target="blank"
-            href="https://drive.google.com/file/d/1B6Yymo2lnpIGaBZE1D0q84dhTARyna2Z/view?usp=sharing"
-          >
-            <MagicButton
-              title="Download Resume"
-              icon={<FaLocationArrow />}
-              position="right"
-            />
-          </a>
+          <div className="flex flex-col items-center justify-center gap-6 mt-6">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/file/d/1B6Yymo2lnpIGaBZE1D0q84dhTARyna2Z/view?usp=sharing"
+            >
+              <MagicButton
+                title="Download Resume"
+                icon={<FaLocationArrow />}
+                position="right"
+              />
+            </a>
+
+            <div className="flex items-center justify-center gap-6 md:gap-3">
+              {socialMedia.map((info) => (
+                <div
+                  key={info.id}
+                  className="w-10 h-10 cursor-pointer flex justify-center items-center backdrop-blur-lg bg-black/70 rounded-lg border border-black/30"
+                >
+                  <a target="_blank" rel="noopener noreferrer" href={info.link}>
+                    <img src={info.img} alt="icons" width={20} height={20} />
+                  </a>
+                </div>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </div>

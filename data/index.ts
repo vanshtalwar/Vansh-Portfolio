@@ -7,25 +7,14 @@ export const navItems = [
 
 export const gridItems = [
   {
-    id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
-    description: "",
-    className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
-    imgClassName: "w-full h-full",
-    titleClassName: "justify-end",
-    img: "/b1.svg",
-    spareImg: "",
-  },
-  {
     id: 2,
-    title:
-      "Bachelors in Technology in Computer Science - KCC Institutes",
+    title: "B-Tech in Computer Science - KCC Institutes",
     description: "Education 2022-2026",
-    className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-    imgClassName: "",
-    titleClassName: "justify-start",
-    img: "",
-    spareImg: "",
+
+    className:
+      "col-span-1 sm:col-span-3 md:col-span-4 lg:col-span-2 md:row-span-2",
+
+    titleClassName: "justify-start items-start text-left",
   },
   {
     id: 3,
@@ -37,26 +26,25 @@ export const gridItems = [
     img: "",
     spareImg: "",
   },
-
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Task Flow",
-    des: "Smart Task Management System built on MERN Stack.",
-    img: "/taskflow.png",
-    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-    link: "https://task-flow-eight-ebon.vercel.app/",
-  },
-  {
-    id: 2,
     title: "Whispyr.io",
     des: "A Real Time Chat Application Build using MERN + Socket.io",
     img: "/whispyr.png",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://whispyr-io-v2.onrender.com/",
   },
+  {
+    id: 2,
+    title: "Task Flow",
+    des: "Smart Task Management System built on MERN Stack.",
+    img: "/taskflow.png",
+    iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
+    link: "https://task-flow-eight-ebon.vercel.app/",
+  }
 ];
 
 
